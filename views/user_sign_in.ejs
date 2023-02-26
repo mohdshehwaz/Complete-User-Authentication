@@ -1,0 +1,25 @@
+<div class="signin-main-div">
+    <h1 style="color: white;" className="title">Sign In</h1>
+    <p style="color: white;" className="subtitle">
+        Please log in using your username and password!
+    </p>
+    <div class="google-icons">
+      <a  href="/users/auth/google" class="icon-ref"><i class="fa-brands fa-google icon"></i> <p>Continue With Google</p></a>  
+    </div>
+    <form action="/users/create-session" method="POST">
+        <div class="inputs_container">
+            <input type="email" name="email" placeholder="Email"  required>
+            <input type="password" name="password" placeholder="Password"  required>
+        </div>
+        
+        <input type="submit" value="Sign In" class="login_button">
+
+    </form>
+    <div class="link_container">
+        <a href="/users/sign-up" class="small">
+          Not Registered ? Please Sign Up
+        </a>
+      </div>
+      
+
+</div>

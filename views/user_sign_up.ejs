@@ -1,0 +1,23 @@
+<div class="signin-main-div">
+    <h1 className="title">Sign Up</h1>
+    <p className="subtitle">
+        Please Register yourself by filling these details
+    </p>
+    <form action="/users/create-user" method="POST">
+        <div class="inputs_container">
+            <input type="text" name="name" placeholder="Name"  required>
+            <input type="email" name="email" placeholder="Email"  required>
+            <input type="password" name="password" placeholder="Password"  required>
+            <input type="password" name="confirm_password" placeholder="Confirm Password"  required>
+        </div>
+        
+        <input type="submit" value="Sign Up"  class="login_button">
+    
+    </form>
+    <div class="link_container">
+        <a href="/users/sign-in" class="small">
+          Already Registered ? Please Sign In
+        </a>
+      </div>
+
+</div>

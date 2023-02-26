@@ -1,0 +1,11 @@
+<div  id="home-id">
+    <h1>User's Details</h1>
+    <div>
+        <h4>User's Name  -<strong style="color: crimson;"><%= user.name%></strong> </h4>
+        <h6>User's Email - <strong style="color: crimson;"><%= user.email%>></strong></h6>
+
+    </div>
+    <div id="reset-id">
+        <a href="/users/reset/<%= user.id %>">Reset Password</a>
+    </div>
+</div>

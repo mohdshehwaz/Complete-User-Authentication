@@ -1,0 +1,13 @@
+#home-id{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#2193b0 , #6dd5ed);
+}
+
+#reset-id a{
+    cursor: pointer;
+    color: red;
+}
